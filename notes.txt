@@ -1,0 +1,3 @@
+none of favicon icons show up
+can preferences lists content be changed for what shows in a tag? (without using js)
+add make icon a tags accessible
