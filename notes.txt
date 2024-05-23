@@ -1,3 +1,8 @@
 none of favicon icons show up
 can preferences lists content be changed for what shows in a tag? (without using js)
-add make icon a tags accessible
+add make icon a tags accessible - add "title" property to i tags
+use sourceset on first hero section image
+add 3 dots feature on boxy jacket
+add 'shop' logo to footer button
+where did the rainbow come from?
+find similar heading font

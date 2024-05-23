@@ -1,0 +1,9 @@
+/*DEVELOPMENT PURPOSES ONLY*/
+img {
+    height: 300px
+}
+/*-------------------------*/
+
+.price::before {
+    content: '£';
+}
