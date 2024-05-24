@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*-------------------------
 FONTS
 --------------------------*/
@@ -95,7 +96,8 @@ FONTS
 VARIABLES & MIXINS
 --------------------------*/
 :root {
-  --background-main-color: rgba(253, 249, 253, 1) ;
+  --background-main-color: rgba(253, 249, 253, 1);
+  --pink: rgb(254,87,171);
 }
 
 /*-------------------------
@@ -132,6 +134,17 @@ body {
   background-color: var(--background-main-color);
 }
 
+.button-primary {
+  background-color: var(--pink);
+  color: #FFF;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--pink);
+}
+
 /*-------------------------
 HEADER
 --------------------------*/
@@ -150,6 +163,14 @@ HEADER
 /*-------------------------
 HERO SECTION
 --------------------------*/
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   position: relative;
 }
@@ -199,7 +220,7 @@ HERO SECTION
 /*-------------------------
 PRODUCT CARDS
 --------------------------*/
-.card {
+.product-card {
   min-width: 300px;
   width: 30vw;
 }
@@ -227,12 +248,12 @@ img {
   right: 0;
 }
 
-.card .overlay-text {
+.product-card .overlay-text {
   background-color: #ff0000;
   color: #FFF;
 }
 
-.card .overlay-text.additional-text {
+.product-card .overlay-text.additional-text {
   background-color: #FFF;
   color: black;
 }
@@ -246,6 +267,21 @@ img {
   top: 0;
 }
 
+.product-card > p {
+  text-align: center;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.price::before {
+  content: "£";
+}
+
 /*-------------------------
 SALE SECTION
 --------------------------*/
@@ -254,4 +290,29 @@ SALE SECTION
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  overflow: hidden;
+}
+
+.sale-section {
+  border-bottom: 1px solid #c4c1c1;
+}
+
+/*-------------------------
+INFO SECTION
+--------------------------*/
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  text-align: center;
+}
+
+.info-card img {
+  width: 40px;
+}
+
+.info-card p {
+  width: 60%;
 }/*# sourceMappingURL=styles.css.map */
