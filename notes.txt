@@ -6,3 +6,6 @@ add 3 dots feature on boxy jacket
 add 'shop' logo to footer button
 where did the rainbow come from?
 find similar heading font
+make icons accessible if need be
+animation on scroll down button
+product card 'add to card' appears on hover
