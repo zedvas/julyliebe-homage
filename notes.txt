@@ -1,11 +1,10 @@
 none of favicon icons show up
-can preferences lists content be changed for what shows in a tag? (without using js)
-add make icon a tags accessible - add "title" property to i tags
+can visible content of <a> tag for preference list be changed dynamically without using js?
+make icon a tags accessible - add "title" property to i tags?
 use sourceset on first hero section image
 add 3 dots feature on boxy jacket
 add 'shop' logo to footer button
 where did the rainbow come from?
 find similar heading font
-make icons accessible if need be
 animation on scroll down button
-product card 'add to card' appears on hover
+product card 'add to cart' appear on hover
